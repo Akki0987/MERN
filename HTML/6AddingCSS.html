@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Adding CSS </title>
+
+    <!-- Internal Css - Styling is done by writing css inside <style> </style> tag in the head section of the document 
+     Element is selected using specific selectors-->
+
+     <style>
+        h3{
+
+            background-color: orchid;
+        }
+     </style>
+
+
+     <!-- External CSS - here styling is done into a separate css file and then the file is linked to the html page into head section -->
+
+     <link rel="stylesheet" href="7style.css">
+
+
+</head>
+<body>
+    <!-- Inline styling - we can provide css to html element on same line within the element using style attribute -->
+    <h2 style="background-color: aquamarine;">Inline Styling</h2>
+
+    <h3>Internal Styling</h3>
+
+    
+    <h4>External CSS</h4>
+    <!-- class - it specifies one or more class name for an element , with class we can target multiple elements at a time or a single class can be assigned to multiple elements  -->
+
+    <h5 class="class">Class Example</h5>
+
+    <!-- Id - it specifies a unique id for an html element , the value of id attribute must be unique  -->
+
+    <h5 id="id">Id Example</h5>
+</body>
+</html>
