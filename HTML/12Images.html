@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    Adding images to html 
+    <hr>
+    <!-- <img src="source" alt="" - img tag is used to define its a image 
+     src - specifes the source of the image
+     alt = a text shown when image unable to load
+     title - defines a description about image when hovered
+     height - attribute used to set height of the image
+     width - attribute used to set width of the image-->
+    <img src="image.jpg" alt="w image" title="Wallpaper" width="40%" height="45%">
+
+    <hr>
+    <a href="https://hdqwalls.com/wallpaper/1366x768/superman-the-mighty-warrior">
+        <img src="https://images.hdqwalls.com/download/superman-the-mighty-warrior-id-1366x768.jpg" alt="Superman" title="watch soource" width="50%" >
+
+<hr>
+        <!-- <picture> </picture> - It akllows devs to include different kind of media according to different screen sizes
+        media="(min-width: 500px) - specifies the screen size for a particular media 
+        srcset = " " - specifies the source of the media
+        <img src = """ alt = " "   - necessary to include with picture to render different media when screen size changes -->
+
+          <picture>
+            <source media="(min-width: 500px)" srcset="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Dpokemon&psig=AOvVaw1q3LY6WLM8QxERN-LHS5fy&ust=1719467550941000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjJ7PfJ-IYDFQAAAAAdAAAAABAJ" />
+
+            <source media="(min-width: 600px)" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThN3ggq5Uhyo2R-dD7Q4a2rWO3iXLJkL2wAA&s" />
+
+
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Dpokemon&psig=AOvVaw1q3LY6WLM8QxERN-LHS5fy&ust=1719467550941000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjJ7PfJ-IYDFQAAAAAdAAAAABAP"/>
+          </picture>
+    </a>
+</body>
+</html>

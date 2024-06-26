@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>Forms</h3>
+    Forms are used to collect data from the user and send it to server at the backend
+<!-- <form> </form> - defines a html form
+ <label for =""> </label> - Maps the text with the input box using for and id attribute
+ 
+<input type = " " value=" " id=" "> - input - defines its an input element
+value - defines a predefined value for input field
+id - defines a unique id for the input field that can be used to map input field with the label
+
+action = " " - defines what action to be done when page is submitted
+name = " " - carries values entered in the input field to the backend server -->
+    <hr>
+TextArea: 
+<br>
+    <form action="./12Images.html">
+        <label for="fname">First Name:</label>
+        <input type="text" value="Akki" id="fname" name="fname" >
+<br>
+<br>
+        <label for="lname">Last Name:</label>
+        <input type="text" value="Plays" id="lname" name="lname">
+<br>
+<br>
+<hr>
+Radio - allows user to select one value from multiple values
+<!-- name - We use name attribute to group multiple inputs into a single input so that only one value can be selected -->
+        <p>Choose Your Favourite language:</p>
+        <input type="radio" name="fav" id="html">
+        <label for="html">HTML</label> <br>
+        <input type="radio" name="fav" id="css">
+        <label for="css">CSS</label> <br>
+        <input type="radio" name="fav" id="js"> 
+        <label for="js">Javascript</label>
+
+        <hr>
+        Checkbox - Allows to select multiple choices from given choices
+        <br>
+        <p>Choose Favourite Anime (multiple) :</p>
+        <input type="checkbox" name="anime" id="demon">
+        <label for="demon">Demon Slayer</label>
+        <input type="checkbox" name="anime" id="titan">
+        <label for="titan">Attack Of Titans</label>
+        <input type="checkbox" name="anime" id="punch">
+        <label for="punch">One Punch</label>
+<br>
+<hr>
+Select 
+<!-- <Select> - Shows a dropdown menue to select one value from the multiples -->
+<label for="car">Select a car :</label>
+<select name="" id="car">
+    <option value="Volvo">Volvo</option>
+    <option value="Buggati">Buggati</option>
+    <option value="Audi">Audi</option>
+    <option value="BMW">BMW</option>
+    <option value="Mercedes">Mercedes</option>
+    <option value="Thar">Thar</option>
+</select>
+
+<hr>
+Color 
+<label for="color">Choose a color : </label>
+<input type="color">
+
+<hr>
+<label for="pass">Enter Password : </label>
+<input type="password">
+
+<hr>
+<label for="img">Choose image</label>
+<input type="image">
+
+<hr>
+<label for="file">Upload files : </label>
+<input type="file">
+
+
+       <hr>
+        Submit - Kind of button used to submit data to server
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
